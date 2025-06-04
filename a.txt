@@ -1,5 +1,18 @@
-git init
+git init //최초 깃을 사용하기위한 명령어
+ 
+git add a.txt  //스테이징 아레아에 올리기 위한 명령어
 
-git add a.txt
+git add . // 변경된 모든 파일들이 전부 스테이징 아레아 올라감
 
-git commit -b "첫번째 커밋"
+git restore --staged //스테이징 아레아 올라가있는 파일을 빼는 명령어
+
+git commit -m "첫번째 커밋"  //커밋을 위한 명렬어
+
+여기서 더 작업함
+
+
+git status  // 깃상태를 보기 위한 명령어
+  
+git log --all --oneline // 커밋 기록을 확인을 위한 명령어
+
+git diff // 비교가능
