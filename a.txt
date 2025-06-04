@@ -16,3 +16,4 @@ git status  // 깃상태를 보기 위한 명령어
 git log --all --oneline // 커밋 기록을 확인을 위한 명령어
 
 git diff // 비교가능
+
