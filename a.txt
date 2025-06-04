@@ -17,3 +17,20 @@ git log --all --oneline // 커밋 기록을 확인을 위한 명령어
 
 git diff // 비교가능
 
+
+git diff // 비교가능g
+
+git difftool 커밋ID // diff보다 편하기 위한 명령어
+
+git branch // 모든 브렌치를 볼수있는 기능
+
+git checkout 브렌치이름  // 브렌칭 이동을 윈한
+
+git merge 브렌치이름 // 브렌치와 다른 브렌치를 머지하기 위한 명령어
+
+git branch -d 브렌치이름 // 브렌치를 삭제하는 명령어
+
+
+PR : Pull Requst
+
+git stash
