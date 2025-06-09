@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100;
+    background-color: skyblue;
+}
+
+.margin {
+    margin: 20px;
+    background-color: red;
+
+}
+
+.padding {
+    padding: 20px;
+    background-color: blue;
+}
+
+.border {
+    border: 5px solid black;
+    padding: 20px;
+}
+
+.before-after::before {
+    content: '<';
+    color: red;
+    margin-right: 5px;
+}
+
+.before-after::after {
+    content: '>';
+    color: blue;
+    margin-left: 5px;
+}
+
+.hover {
+    background-color: green;
+    padding: 20px;
+}
+
+.hover:hover {
+    background-color: yellow;
+    padding: 1px;
+}

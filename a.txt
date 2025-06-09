@@ -6,6 +6,12 @@ git add . // 변경된 모든 파일들이 전부 스테이징 아레아 올라�
 
 git restore --staged //스테이징 아레아 올라가있는 파일을 빼는 명령어
 
+git restore --source 커맛 아이디 파일명 // 특정 시점으로 파일을 복구
+
+git revert // 특정 커밋을 취소하는 명령어
+
+git reset // 과거로 되돌리는 명령어
+
 git commit -m "첫번째 커밋"  //커밋을 위한 명렬어
 
 여기서 더 작업함
