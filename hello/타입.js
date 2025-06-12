@@ -24,3 +24,5 @@ const g = NaN;
 console.log('g 타입', typeof g);
 const h = Infinity;
 console.log('h 타입', typeof h);
+const i = {}
+console.log('i 타입', typeof i);
