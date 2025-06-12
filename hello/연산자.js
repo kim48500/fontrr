@@ -10,6 +10,7 @@ console.log(!false);
 console.log('a !==b', a !== b);
 console.log('a !=b', a != b);
 
+
 //비교 연산자
 
 // // console.log('a == b', a == b);
@@ -27,3 +28,4 @@ console.log('a !=b', a != b);
 // console.log('e--', e)
 // console.log('++e', ++e)
 // console.log('--e', --e)
+console.log(5 % 3);//나머지
